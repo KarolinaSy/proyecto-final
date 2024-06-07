@@ -13,4 +13,6 @@ En el que contendra:
 
 Efectos o módulos como el añadir productos a un carrito de compras, sliders de productos destacados, carrouseles, efectos de scroll, menú, etc...
 
+Palabras clave en descripción a la página web:
 
+Elegancia, sutileza y un toque de exclusividad
