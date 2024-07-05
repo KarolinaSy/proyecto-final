@@ -135,3 +135,31 @@ nav li:first-child{
 
     display: block;
 }
+
+.encabezado-img {
+
+    background-image: url('/assets/portada-menu.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.encabezado-img h1 {
+
+    font-size: 40px;
+    justify-content: center;
+    color: #ffffff
+}
+
+.inicio-elementos {
+   
+   width: 30px;
+    margin: 20px;
+    
+    
+
+}
