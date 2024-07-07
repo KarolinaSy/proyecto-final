@@ -106,7 +106,7 @@ nav li:first-child{
 .menu li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-   
+
 }
 
 .dropdown {
@@ -114,12 +114,12 @@ nav li:first-child{
     position: relative;
     display: flex;
     align-items: center;
-   
+
 
 }
 
 .dropdown-menu {
-   
+
     display: none;
     list-style-type: none;
     position: absolute;
@@ -159,34 +159,35 @@ nav li:first-child{
     color: #ffffff
 }
 
-/* BUSCADOR */
+/* BUSCADOR MENÚ */
 
-.box{
-    height: 30px;
+.box {
+    height: 0.5px;
     display: flex;
     cursor: pointer;
-    padding: 10px 20px;
-    background: #fff;
+    padding: 10px 10px;
     border-radius: 30px;
     align-items: center;
+    
 }
 
-.box:hover input{
-    width: 400px;
+.box:hover input {
+    width: 100px;
 }
 
-.box input{
+.box input {
     width: 0;
     outline: none;
     border: none;
-    font-weight: 500;
-    transition: 0.8s;
+    font-weight: 400;
+    transition: 0.6s;
     background: transparent;
 }
 
-.box a .fas{
-    color: ;
+.box a .fas {
+    color: #797979;
 }
+
 
 /* CAJAS DE INFORMACION DEBAJO DE LA IMAGEN DE PORTADA */
 
@@ -195,7 +196,7 @@ nav li:first-child{
     height: 100%;
     display: flex;
     max-width: 1100px;
-   
+
 }
 
 .carta {
@@ -234,7 +235,7 @@ nav li:first-child{
     margin: 0 0 0 15px;
 }
 
-.carta .contenido a{
+.carta .contenido a {
     text-decoration: none;
     display: inline-block;
     padding: 10px;
@@ -245,7 +246,98 @@ nav li:first-child{
     transition: all 400ms ease;
 }
 
-.carta.contenido a:hover{
+.carta.contenido a:hover {
     background: #2fb4cc;
     color: #c41c1c;
 }
+
+/* PÁGINA MENU ANILLOS */
+
+.encabezado-img-anillos {
+
+    background-image: url('/assets/anillos-portada-menu.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.encabezado-img-anillos h1 {
+
+    font-size: 40px;
+    justify-content: center;
+    margin: 50px 0 0 0;
+    color: #ffffff
+}
+
+
+/* GALERIA DE PRODUCTOS */
+.contenedor-anillos {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+    grid-gap:30px;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+
+.carta-anillos {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 2px rgba(86, 86, 86, 0.1);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.carta-anillos:hover {
+    box-shadow: 2px 2px 2px 15px rgba(111, 111, 111, 0.1);
+    transform: translateY(-1%);
+}
+
+.carta-anillos .contenido {
+    padding: 15px;
+   /* text-align: center;*/
+}
+
+.carta-anillos .contenido p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.carta-anillos.contenido h3 {
+    font-weight: 400;
+    margin: 0 0 0 15px;
+}
+
+.carta-anillos .contenido a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.carta-anillos.contenido a:hover {
+    background: #2fb4cc;
+    color: #c41c1c;
+}
+
