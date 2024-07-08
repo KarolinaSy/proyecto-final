@@ -276,6 +276,7 @@ nav li:first-child{
 
 /* GALERIA DE PRODUCTOS */
 .contenedor-anillos {
+    position: relative;
     width: 100%;
     display: flex;
     max-width: 1100px;
@@ -291,12 +292,13 @@ nav li:first-child{
 
 .gallery img{
     width: 100%;
+    
 }
 
 
 .carta-anillos {
     width: 100%;
-    margin: 20px;
+    margin: 20px 0 0 0;
     border-radius: 6px;
     overflow: hidden;
     background: #fff;
@@ -304,6 +306,15 @@ nav li:first-child{
     cursor: default;
     transition: all 400ms ease;
 }
+
+.carta-anillos .fa-heart{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    
+    
+}
+
 
 .carta-anillos:hover {
     box-shadow: 2px 2px 2px 15px rgba(111, 111, 111, 0.1);
@@ -340,4 +351,5 @@ nav li:first-child{
     background: #2fb4cc;
     color: #c41c1c;
 }
+
 
