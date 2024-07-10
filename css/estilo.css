@@ -295,7 +295,6 @@ nav li:first-child{
     
 }
 
-
 .carta-anillos {
     width: 100%;
     margin: 20px 0 0 0;
@@ -306,15 +305,6 @@ nav li:first-child{
     cursor: default;
     transition: all 400ms ease;
 }
-
-.carta-anillos .fa-heart{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    
-    
-}
-
 
 .carta-anillos:hover {
     box-shadow: 2px 2px 2px 15px rgba(111, 111, 111, 0.1);
