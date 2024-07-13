@@ -236,6 +236,22 @@ nav li:first-child{
     transition: all 400ms ease;
 }
 
+/* BANNER CON IMAGEN Y TEXTO */
+
+
+.banner{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* PÁGINA MENU ANILLOS */
 
