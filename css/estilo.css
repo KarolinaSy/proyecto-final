@@ -54,12 +54,10 @@
 }
 
 .dropdown {
-    /*display:none;*/
+
     position: relative;
     display: flex;
     align-items: center;
-
-
 }
 
 .dropdown-menu {
@@ -112,7 +110,7 @@
     padding: 10px 10px;
     border-radius: 30px;
     align-items: center;
-    
+
 }
 
 .box:hover input {
@@ -148,8 +146,7 @@
     /*margin: 20px;
     border-radius: 6px;*/
     overflow: hidden;
-    background: #ebeaea;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    background: #5e3704;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -169,9 +166,9 @@
     font-weight: 400;
     font-size: 80px;
     margin: 20px 0 0 20px;
-    color: #dcc063;
+    color: #edbc58;
 
-    
+
 }
 
 .carta .contenido a {
@@ -194,22 +191,22 @@
 /* BANNER CON IMAGEN Y TEXTO */
 
 
-.banner{
+.banner {
     position: relative;
     display: inline-block;
     text-align: center;
 
 }
 
-.banner .cuadrado{
-    background: linear-gradient(#edbc58, rgb(0, 0, 0));
+.banner .cuadrado {
+    background: rgb(255, 255, 255);
     width: 1090px;
     height: 300px;
 }
- 
 
-.texto{
-    color: #ffffff;
+
+.texto {
+    color: #363636;
     font-size: 30px;
     position: absolute;
     top: 50%;
@@ -217,9 +214,106 @@
     transform: translate(-50%, -50%);
 }
 
-/* PÁGINA MENU ANILLOS */
+/* FOOTER */
 
-.encabezado-img-anillos {
+footer {
+    background-color: #111;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 20px 40px;
+}
+
+.footer__socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.footer__socialIcons a i {
+    font-size: 1em;
+    color: black;
+    opacity: 0, 9;
+}
+
+.footer__socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.footer__socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footer__Nav {
+    margin: 30px 0;
+}
+
+.footer__Nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer__Nav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 0.9em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+
+.footer__Nav ul li a:hover {
+    opacity: 1;
+}
+
+.footer__Bottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer__Bottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+    .footerNav ul {
+        flex-direction: column;
+    }
+
+    .footerNav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .socialIcons a {
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+.encabezado__img__anillos {
 
     background-image: url('/assets/anillos-portada-menu.jpg');
     background-size: cover;
@@ -231,34 +325,35 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.encabezado-img-anillos h1 {
+/* PÁGINA ANILLOS */
+
+.encabezado__img__anillos h1 {
 
     font-size: 40px;
     justify-content: center;
-    margin: 50px 0 0 0;
     color: #ffffff
 }
 
-
 /* GALERIA DE PRODUCTOS */
+
 .contenedor-anillos {
     position: relative;
     width: 100%;
     display: flex;
     max-width: 1100px;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
-.gallery{
+.gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
-    grid-gap:30px;
+    grid-gap: 30px;
 }
 
-.gallery img{
+.gallery img {
     width: 100%;
-    
+
 }
 
 .carta-anillos {
@@ -279,7 +374,7 @@
 
 .carta-anillos .contenido {
     padding: 15px;
-   /* text-align: center;*/
+    /* text-align: center;*/
 }
 
 .carta-anillos .contenido p {
@@ -308,4 +403,20 @@
     color: #c41c1c;
 }
 
+/* PÁGINA DE FAVORITOS */
 
+.fav__cuadrado{
+    background: rgb(255, 255, 255);
+    width: 1090px;
+    height: 600px;
+    
+}
+
+.fav__texto{
+    color: #525252;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
