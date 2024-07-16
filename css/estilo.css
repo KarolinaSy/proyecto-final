@@ -579,7 +579,6 @@ button {
 .cajas .cajas-items .item{
     max-width: 200px;
     margin: auto;
-    border: 1px solid #666;
     border-radius: 10px;
     padding: 20px;
     transition: .3s;
@@ -588,7 +587,7 @@ button {
     width: 100%;
 }
 .cajas .cajas-items .item:hover{
-    box-shadow: 0 0 10px #666;
+    box-shadow: 0 0 10px #b0b0b0;
     scale: 1.05;
 }
 .cajas .cajas-items .item .titulo-item{
@@ -601,7 +600,7 @@ button {
     display: block;
     text-align: center;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .cajas .cajas-items .item .boton-item{
@@ -610,13 +609,14 @@ button {
     border: none;
     background-color: black;
     color: #fff;
-    padding: 5px 15px;
+    padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 12px;
 }
 /* seccion carrito */
 .carrito{
-    border: 1px solid #666;
+   
     width: 35%;
     margin-top: 30px;
     border-radius: 10px;
@@ -638,9 +638,7 @@ button {
 .carrito .carrito-item{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     position: relative;
-    border-bottom: 1px solid #666;
     padding: 20px;
 }
 .carrito .carrito-item img{
@@ -658,7 +656,7 @@ button {
 }
 .carrito .carrito-item .carrito-item-cantidad{
     border: none;
-    font-size: 18px;
+    font-size: 13px;
     background-color: transparent;
     display: inline-block;
     width:30px;
@@ -666,7 +664,7 @@ button {
     text-align: center;
 }
 .carrito .carrito-item .selector-cantidad i{
-    font-size: 18px;
+    font-size: 13px;
     width: 32px;
     height: 32px;
     line-height: 32px;
@@ -678,21 +676,20 @@ button {
 .carrito .carrito-item .carrito-item-precio{
     font-weight: bold;
     display: inline-block;
-    font-size: 18px;
+    font-size: 13px;
     margin-bottom: 5px;
 }
 .carrito .carrito-item .btn-eliminar{
     position: absolute;
-    right: 15px;
+    right: 0.5px;
     top: 15px;
     color: #000;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
-    border-radius: 50%;
-    border: 1px solid #000;
+    border-radius: 40%;
     cursor: pointer;
     display: block;
     background: transparent;
@@ -710,8 +707,8 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 18px;
+ 
     margin-bottom: 10px;
 }
 .carrito-total .btn-pagar{
@@ -739,7 +736,7 @@ button {
       display: block;
     }
     .contenedor-items{
-        width: 100% !important;
+        width: 100%;
     }
     .carrito{
         width: 100%;
