@@ -567,7 +567,7 @@ button {
 }
 /* SECCION CONTENEDOR DE ITEMS */
 .cajas .cajas-items{
-    margin-top: 30px;
+    margin: 30px 0 0 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     grid-gap:30px;
@@ -618,7 +618,7 @@ button {
 .carrito{
    
     width: 35%;
-    margin-top: 30px;
+    margin: 30px 0 0 0;
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: auto;
@@ -626,7 +626,7 @@ button {
     top: 0;
     transition: .3s;
     /* Estilos para ocultar */
-    margin-right: -100%;
+    margin:0 -100% 0 0;
     opacity: 0;
 }
 .carrito .header-carrito{
@@ -642,17 +642,17 @@ button {
     padding: 20px;
 }
 .carrito .carrito-item img{
-    margin-right: 20px;
+    margin:0 20px 0 0;
 }
 .carrito .carrito-item .carrito-item-titulo{
     display: block;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin:0 10px 0 0;
     text-transform: uppercase;
 }
 .carrito .carrito-item .selector-cantidad{
     display: inline-block;
-    margin-right: 25px;
+    margin:0 25px 0 0;
 }
 .carrito .carrito-item .carrito-item-cantidad{
     border: none;
@@ -677,7 +677,7 @@ button {
     font-weight: bold;
     display: inline-block;
     font-size: 13px;
-    margin-bottom: 5px;
+    margin:0 0 5px 0;
 }
 .carrito .carrito-item .btn-eliminar{
     position: absolute;
@@ -708,8 +708,7 @@ button {
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
- 
-    margin-bottom: 10px;
+    margin:0 0 10px 0;
 }
 .carrito-total .btn-pagar{
     display: block;
@@ -742,3 +741,82 @@ button {
         width: 100%;
     }
   }
+
+/* Hacer el pago de la compra */
+
+.contenido{
+	width: 100vw;
+	min-height: 100vh;
+	background: #34495e;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pago{
+	background: white;
+	max-width: 800px;
+	min-height: 500px;
+	display: flex;
+	justify-content:space-between;
+	align-items: flex-start;
+	padding: 0.5rem 1.5rem;
+}
+.pago__izq{
+	flex-basis: 50%;
+}
+.pago__right{
+	flex-basis: 50%;
+}
+form{
+	padding: 1rem;
+}
+h3{
+	margin-top: 1rem;
+	color:#2c3e50;
+	}
+
+form input[type="text"]{
+	width: 100%;
+	padding: 0.5rem 0.7rem;
+	margin: 0.5rem 0;
+	outline: none;
+}
+
+.zip{
+	display: flex;
+	margin-top: 0.5rem;
+}
+.zip select{
+	padding: 0.5rem 0.7rem;
+}
+.zip input[type="number"]{
+	padding: 0.5rem 0.7rem;
+	margin-left: 5px;	
+}
+input[type="submit"]{
+	width: 100%;
+	padding: 0.7rem 1.5rem;
+	background: #34495e;
+	color: white;
+	border: none;
+	outline: none;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background: #2c3e50;
+}
+
+
+@media only screen and (max-width: 770px){
+	.container{
+		flex-direction: column;
+	}
+	body{
+		overflow-x: hidden;
+	}
+}
+

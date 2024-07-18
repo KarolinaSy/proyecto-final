@@ -30,12 +30,12 @@
 
                     <div class="logo"><a href="/index.html">KICE</a></div>
                     <div class="box">
-                        
+
                         <input type="text" placeholder="Buscar...">
-                            <a href="#">
+                        <a href="#">
                             <i class="fas fa-search"></i>
                         </a>
-                        
+
                     </div>
                     <li>
                         <a href="/perfil-usuario.html"><i class="fa-regular fa-user"></i></a>
@@ -49,12 +49,68 @@
 
                 </ul>
 
-            </nav>
-      </div>
+        </nav>
+        </div>
+    </header>
+    <header class="contenido">
+        <div class="pago">
+            <div class="pago__izq">
+                <h3>Dirección de Envio</h3>
+                <form>
+                    Nombre Completo
+                    <input type="text" name="" placeholder="Enter name">
+                    Email
+                    <input type="text" name="" placeholder="Enter email">
+
+                    Dirección
+                    <input type="text" name="" placeholder="Enter address">
+
+                    Ciudad
+                    <input type="text" name="" placeholder="Enter City">
+                    <div class="zip">
+                        <label>
+                            Código postal
+                            <input type="number" name="" placeholder="Zip code">
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="pago__right">
+                <h3>Pago</h3>
+                <form>
+                    Tarjetas de crédito 
+                    <img src="/assets/card1.png" width="100">
+                    <img src="/assets/card2.png" width="50">
+                    
+                    Credit card number
+                    <input type="text" name="" placeholder="Enter card number">
+
+                    Exp month
+                    <input type="text" name="" placeholder="Enter Month">
+                    <div class="zip">
+                        <label>
+                            Exp year
+                            <select>
+                                <option>Choose Year..</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+                                <option>2026</option>
+                            </select>
+                        </label>
+                        <label>
+                            CVV
+                            <input type="number" name="" placeholder="CVV">
+                        </label>
+                    </div>
+                </form>
+                <input type="submit" name="" value="Proceed to Checkout">
+            </div>
+        </div>
     </header>
 
 
-        <script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 
