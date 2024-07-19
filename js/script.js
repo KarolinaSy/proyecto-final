@@ -186,7 +186,7 @@ function actualizarTotalCarrito(){
         var item = carritoItems[i];
         var precioElemento = item.getElementsByClassName('carrito-item-precio')[0];
         //quitamos el simobolo peso y el punto de milesimos.
-        var precio = parseFloat(precioElemento.innerText.replace('$','').replace('.',''));
+        var precio = parseFloat(precioElemento.innerText.replace('€','').replace('.',''));
         var cantidadItem = item.getElementsByClassName('carrito-item-cantidad')[0];
         console.log(precio);
         var cantidad = cantidadItem.value;
@@ -194,6 +194,6 @@ function actualizarTotalCarrito(){
     }
     total = Math.round(total * 100)/100;
 
-    document.getElementsByClassName('carrito-precio-total')[0].innerText = '$'+total.toLocaleString("es") + ",00";
+    document.getElementsByClassName('carrito-precio-total')[0].innerText = total.toLocaleString("es") + ",00" + '€';
 
 }

@@ -7,9 +7,8 @@ La elección de este tema fue entre ellos personal, siendo una inspiración pasa
 En el que contendra:
 1. Inicio (index.html)
 2. Catálogo de productos
-3. Páginas de producto individual
-4. Carrito de compras
-5. Página de pago y Confirmación de pedido. 
+3. Carrito de compras
+4. Página de pago 
 
 Efectos o módulos como el añadir productos a un carrito de compras, sliders de productos destacados, carrouseles, efectos de scroll, menú, etc...
 
