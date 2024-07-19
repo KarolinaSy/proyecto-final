@@ -52,25 +52,28 @@
         </nav>
         </div>
     </header>
-    <header class="contenido">
+
+    <!-- AÑADIR REALIZACIÓN DE PAGO-->
+
+    <header class="contenidos">
         <div class="pago">
             <div class="pago__izq">
                 <h3>Dirección de Envio</h3>
                 <form>
                     Nombre Completo
-                    <input type="text" name="" placeholder="Enter name">
+                    <input type="text" name="" placeholder="Introducir nombre">
                     Email
-                    <input type="text" name="" placeholder="Enter email">
+                    <input type="text" name="" placeholder="Introducir correo">
 
                     Dirección
-                    <input type="text" name="" placeholder="Enter address">
+                    <input type="text" name="" placeholder="Introducir dirección">
 
                     Ciudad
-                    <input type="text" name="" placeholder="Enter City">
+                    <input type="text" name="" placeholder="Introducir ciudad">
                     <div class="zip">
                         <label>
                             Código postal
-                            <input type="number" name="" placeholder="Zip code">
+                            <input type="number" name="" placeholder="Código postal">
                         </label>
                     </div>
                 </form>
@@ -78,20 +81,20 @@
             <div class="pago__right">
                 <h3>Pago</h3>
                 <form>
-                    Tarjetas de crédito 
-                    <img src="/assets/card1.png" width="100">
-                    <img src="/assets/card2.png" width="50">
-                    
-                    Credit card number
-                    <input type="text" name="" placeholder="Enter card number">
+                    Tarjetas de crédito
+                    <img src="/assets/card1.png" alt="tarjeta visa" width="100">
+                    <img src="/assets/card2.png" alt="tarjeta credito masterCard" width="50">
 
-                    Exp month
-                    <input type="text" name="" placeholder="Enter Month">
+                    Número de tarjeta de crédito
+                    <input type="text" name="" placeholder="Introducir número de tarjeta">
+
+                    Mes de Expiración
+                    <input type="text" name="" placeholder="Introducir mes">
                     <div class="zip">
                         <label>
-                            Exp year
+                            Año de expiración
                             <select>
-                                <option>Choose Year..</option>
+                                <option>Elegir año</option>
                                 <option>2023</option>
                                 <option>2024</option>
                                 <option>2025</option>
@@ -104,13 +107,37 @@
                         </label>
                     </div>
                 </form>
-                <input type="submit" name="" value="Proceed to Checkout">
+                <input type="submit" name="" value="Pagar">
             </div>
         </div>
     </header>
 
+        <!-- Footer -->
 
-    <script src="./js/script.js"></script>
+        <footer>
+            <div class="footerContainer">
+                <div class="footer__socialIcons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footer__Nav">
+                    <ul><li><a href="">Menú</a></li>
+                        <li><a href="">Nueva Colección</a></li>
+                        <li><a href="">Sobre Nosotros</a></li>
+                        <li><a href="">Contáctanos</a></li>
+                        <li><a href="">Embajadores</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer__Bottom">
+                <p>Copyright &copy;2023</span></p>
+            </div>
+        </footer>
+    
 
 </body>
 
