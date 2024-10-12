@@ -917,3 +917,21 @@ input[type="submit"]:hover {
         overflow-x: hidden;
     }
 }
+
+/* PÁGINA SOBRE NOSOTROS */
+
+.nosotros{
+    padding: 400px;
+    background-color: rgb(13, 13, 13); 
+}
+
+.titulo__nosotros{
+    text-align: center;
+    padding: 30px;
+    color: #c9c9c9;
+    
+}
+.contenido__nosotros{
+    color: #c9c9c9;
+    
+}
