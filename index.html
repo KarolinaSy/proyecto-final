@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kice</title>
-    <meta name="description" content="Página de inicio, menú donde se encuentra la información y categorías de productos">
+    <meta name="description"
+        content="Página de inicio, menú donde se encuentra la información y categorías de productos">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 
 
@@ -20,22 +22,22 @@
             <div class="navbar">
                 <ul class="menu">
                     <li class="dropdown">
-                        <a href="#"><i class="fa-solid fa-bars"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="./anillos.html">Anillos</a></li>
-                            <li><a href="./pendientes.html">Pendientes</a></li>
-
-                        </ul>
+                        <button class="dropdown-button" aria-label="Abrir menú">
+                            <i class="fa-solid fa-bars"></i></a>
+                            <ul class="dropdown-menu" aria-hidden="true">
+                                <li><a href="./anillos.html">Anillos</a></li>
+                                <li><a href="./pendientes.html">Pendientes</a></li>
+                            </ul>
                     </li>
 
                     <div class="logo"><a href="#">KICE</a></div>
                     <div class="box">
-                        
+
                         <input type="text" placeholder="Buscar...">
-                            <a href="#">
+                        <a href="#">
                             <i class="fas fa-search"></i>
                         </a>
-                        
+
                     </div>
                     <li>
                         <a href="./perfil-usuario.html"><i class="fa-regular fa-user"></i></a>
@@ -46,11 +48,9 @@
                     <li>
                         <a href="./compra.html"><i class="fa-solid fa-cart-shopping"></i></a>
                     </li>
-
                 </ul>
             </div>
         </nav>
-        
     </header>
 
     <div class="encabezado-img">
@@ -74,16 +74,16 @@
             <div class="contenido">
                 <a href="./pendientes.html">Pendientes</a>
                 <h3>Elegidos para ti</h3>
-                
+
             </div>
         </div>
     </div>
 
     <div class="banner">
-       
-            <div class="cuadrado"></div>
-            <div class="texto">Próximas Novedades en Accesorios</div>
-    
+
+        <div class="cuadrado"></div>
+        <div class="texto">Próximas Novedades en Accesorios</div>
+
     </div>
 
     <!-- Footer -->
@@ -97,20 +97,22 @@
                 <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
             </div>
             <div class="footer__Nav">
-                <ul><li><a href="">Menú</a></li>
+                <ul>
+                    <li><a href="">Menú</a></li>
                     <li><a href="http://127.0.0.1:5500/pendientes.html">Nueva Colección</a></li>
                     <li><a href="./nosotros.html">Sobre Nosotros</a></li>
                     <li><a href="https://www.whatsapp.com/?lang=es_LA">Contáctanos</a></li>
                     <li><a href="https://www.google.com/intl/es/gmail/about/">Embajadores</a></li>
                 </ul>
             </div>
-            
+
         </div>
         <div class="footer__Bottom">
             <p>Copyright &copy;2024</span></p>
         </div>
     </footer>
 
+    <script src="./js/script.js"></script>
 
 </body>
 
