@@ -369,7 +369,7 @@ footer {
 
 .encabezado__img__anillos {
 
-   
+    background-image: url('/assets/anillos-portada-menu.jpg');
     background-size: cover;
     height: 600px;
     display: flex;
