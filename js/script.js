@@ -54,7 +54,7 @@ function pagarClicked(){
     actualizarTotalCarrito();
     ocultarCarrito();
 }
-//Funciòn que controla el boton clickeado de agregar al carrito
+//Función que controla el boton clickeado de agregar al carrito
 function agregarAlCarritoClicked(event){
     var button = event.target;
     var item = button.parentElement;
@@ -79,7 +79,7 @@ function hacerVisibleCarrito(){
     items.style.width = '60%';
 }
 
-//Funciòn que agrega un item al carrito
+//Función que agrega un item al carrito
 function agregarItemAlCarrito(titulo, precio, imagenSrc){
     var item = document.createElement('div');
     item.classList.add = ('item');
@@ -162,7 +162,7 @@ function eliminarItemCarrito(event){
     //Si no hay elimino el carrito
     ocultarCarrito();
 }
-//Funciòn que controla si hay elementos en el carrito. Si no hay oculto el carrito.
+//Función que controla si hay elementos en el carrito. Si no hay oculto el carrito.
 function ocultarCarrito(){
     var carritoItems = document.getElementsByClassName('carrito-items')[0];
     if(carritoItems.childElementCount==0){
