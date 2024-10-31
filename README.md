@@ -9,6 +9,7 @@ En el que contendra:
 2. Catálogo de productos
 3. Carrito de compras
 4. Página de pago 
+5. Registro de perfil
 
 Efectos o módulos como el añadir productos a un carrito de compras, sliders de productos destacados, carrouseles, efectos de scroll, menú, etc...
 
