@@ -944,20 +944,23 @@ form input[type="text"] {
     padding: 0.5rem 0.7rem;
     margin: 0.5rem 0;
     outline: none;
+    border-radius: 3rem;
 }
 
 .zip {
     display: flex;
     margin: 1rem 0 0 0;
+    border-radius: 3rem;
 }
 
 .zip select {
     padding: 0.5rem 0.7rem;
+    border-radius: 3rem;
 }
 
 .zip input[type="number"] {
-    padding: 0.5rem 0.7rem;
-    margin: 5px 0 0 5px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3rem;
 }
 
 input[type="submit"] {
@@ -970,6 +973,7 @@ input[type="submit"] {
     outline: none;
     margin: 1rem 0 0 10rem;
     cursor: pointer;
+    
 }
 
 input[type="submit"]:hover {
